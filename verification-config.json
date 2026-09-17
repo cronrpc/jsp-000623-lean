@@ -1,5 +1,6 @@
 {
   "project": "JSP-000623",
+  "package_name": "jsp_000623_lean",
   "lean_toolchain": "leanprover/lean4:v4.34.0",
   "mathlib_commit": "5ed2965256430c3649e86755f9576b54eca72435",
   "scope_review_complete": true,

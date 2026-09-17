@@ -161,6 +161,10 @@ def main():
             if (work / 'lean-toolchain').read_text().strip() != CONFIG['lean_toolchain']:
                 raise ValueError('Wrong Lean toolchain')
             lock = json.loads((work / 'lake-manifest.json').read_text())
+            package_name = re.search(r'^name\s*=\s*"([^"\n]+)"',
+                (work / 'lakefile.toml').read_text(), re.MULTILINE)
+            if not package_name or package_name[1] != CONFIG['package_name'] or lock.get('name') != CONFIG['package_name']:
+                raise ValueError('Package name differs between project configuration and dependency lock')
             for package in lock['packages']:
                 if package.get('type') != 'git' or not re.fullmatch('[0-9a-f]{40}', package.get('rev', '')):
                     raise ValueError(f'Nonportable or unlocked dependency: {package.get("name")}')
