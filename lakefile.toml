@@ -16,6 +16,3 @@ name = "Util"
 [[lean_lib]]
 name = "JSP623"
 roots = ["JSP623", "RotationRestriction", "PermutationCycleSurgery", "DeletionCycles", "FaceDeletion", "GraphDeletionCounts", "RotationTransport", "IsolatedRestriction", "EdgeIsolateCounts", "EmbeddingDeletion", "SubgraphInduction", "EmbeddingHereditary", "SurfaceConclusion", "EmbeddingInstances"]
-
-
-

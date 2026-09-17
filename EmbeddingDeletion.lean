@@ -68,6 +68,3 @@ theorem EmbedsOrientable.delete_dart {g : ℕ} (hG : EmbedsOrientable G g) (d : 
     omega
 
 end Erdos759.SimpleGraph
-
-
-

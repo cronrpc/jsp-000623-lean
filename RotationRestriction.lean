@@ -220,4 +220,3 @@ theorem RotationSystem.sameCycle_of_isBridge (R : RotationSystem G) (d : G.Dart)
   exact hd hr
 
 end Erdos759.SimpleGraph
-

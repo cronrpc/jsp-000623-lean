@@ -188,4 +188,3 @@ theorem RotationSystem.cycleCount_deleteEdge (R : RotationSystem G) (d : G.Dart)
 end Finite
 
 end Erdos759.SimpleGraph
-
