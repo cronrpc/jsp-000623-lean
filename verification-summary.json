@@ -1,0 +1,72 @@
+{
+  "source_commit": "47c5192a01dc558fee751d18869f912586be33dd",
+  "module_count": 17,
+  "verdict": "PASS",
+  "final_axioms": {
+    "Erdos759.SimpleGraph.EmbedsOrientable.comap": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "Erdos759.SimpleGraph.embedsOrientable_iff_hereditary": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "Erdos759.SimpleGraph.ordinarySurfaceCochromaticValues_eq": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "Erdos759.SimpleGraph.ordinaryZSurface_isGreatest": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "Erdos759.SimpleGraph.ordinary_surface_cochromatic_eventual_bounds": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "Erdos759.SimpleGraph.ordinary_surface_cochromatic_theta": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ]
+  },
+  "source_sha256": {
+    "DeletionCycles.lean": "69c1f0b38b500128fa972d6c5d91404ee592e596b826c5ee6bc8544cc30e54bb",
+    "EdgeIsolateCounts.lean": "ef1d6c88b091b7ede78651ac95b3621f7db4d0575ba69b4863f84fcdad00fbdc",
+    "EmbeddingDeletion.lean": "ae180af7d1edf7c50f065fa577df4b2b052c9d380ea5fea20b69bfdf38138fa5",
+    "EmbeddingHereditary.lean": "15fa311b9684bd516788fdc348afa21bcd7a7f82d46f04b950a0b6bb26eba605",
+    "EmbeddingInstances.lean": "2aa2fae25b8ab4ac7260a4ea52b9354a87b8b25ad97fdde0914664a32607dd32",
+    "ErdosProblems/Erdos759.lean": "0939cdd554cdf5c92ff2158f9fc3fe198efb9a7d34210cb894a1b20561be3f7c",
+    "ErdosProblems/Erdos760.lean": "63421f9e4e7c85c3c573610e664c93be6abb223aab747d0dea9224b96d4e854c",
+    "FaceDeletion.lean": "0a923f393b308f60220c2f1131f345b2bc0274b810551a1f52b52c18e9f5cb5a",
+    "GraphDeletionCounts.lean": "e5f0a059152ba439a2be4b4b1c438c6f094746477e29a9a7de0377e9264c9631",
+    "IsolatedRestriction.lean": "5e484d511601d48d6658a07c19a60b484db0e2f1e7c5370b444e6c7f1a321039",
+    "JSP623.lean": "ce9fb540162917deb78cc9304f2211b1aca4d96669fa280121ee152c7e2dc989",
+    "PermutationCycleSurgery.lean": "0354f3d0947d2bd2b871fe3577564d3d8ab01b9c80d777fdb8941b766a530527",
+    "RotationRestriction.lean": "25e508e3997030b2023da1b9896590e6a10a857bb8cb4816d09a0563df67516c",
+    "RotationTransport.lean": "9db5d10600a9e53297c8611c6ecc35eabf005e40c778576e882fb474f56a9bd3",
+    "SCOPE-REVIEW.md": "2226655094e05d348dfe3b80b677a752a9198a81920093442058e5c90615dfc5",
+    "SubgraphInduction.lean": "deca95e0fe39c04553297e9c391528646b8dfcdae72d1124b86010b61c2f4668",
+    "SurfaceConclusion.lean": "3fc2dcf3d969a4688ff8f2d2be5fbcb8cadd335bc9cd37964a9792dc67dcf094",
+    "Util/Ramsey.lean": "c1269d71fcd105835310b53e87a588fcb5628f87a76c9f16d7a007697f77b82a",
+    "lake-manifest.json": "29329a1c199ff6dfaaed56611cc1ad467e4db81d805e37c37a3c9c1003f039f2",
+    "lakefile.toml": "8fb44bc5e76f69ef2a892e7b0275c89480081393d788a00e70efc51737ab3f91",
+    "lean-toolchain": "8733782dc070a99b312039cda424f601b80f3be6f6f512627da5ba25adc27632",
+    "verification-config.json": "4034b58fee42b216ef42338bd8a063986dad49dc61dd3dc0d71ff3016a3fb8f8",
+    "verify.py": "842040db037f90279883f7f6cf6d860b80549f6f6866bcce421823a82a4ad0a9"
+  },
+  "artifacts": {
+    "jsp-000623-source.tar.gz": {
+      "sha256": "c6b0db0f8e23904cd9f415bb96c4509b78685f9bcfe1b040ef130697fd5ea544",
+      "bytes": 76890
+    },
+    "jsp-000623-verification.tar.gz": {
+      "sha256": "4368ce78c8719fd18b9a309f6a523d79031ab07ec663177105f6f0c8e3e01238",
+      "bytes": 8975
+    }
+  }
+}
