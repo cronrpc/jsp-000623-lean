@@ -23,12 +23,12 @@ and the fixed upstream modules reused with their licenses.
 
 ## Fixed source and reproduction
 
-- Proof source: [`47c5192a01dc558fee751d18869f912586be33dd`](https://github.com/cronrpc/jsp-000623-lean/tree/47c5192a01dc558fee751d18869f912586be33dd).
+- Proof source: [`1f3221e8b846f0b258bdb7273fc47342fa9e55c9`](https://github.com/cronrpc/jsp-000623-lean/tree/1f3221e8b846f0b258bdb7273fc47342fa9e55c9).
 - Lean: `leanprover/lean4:v4.34.0`.
 - Mathlib: `5ed2965256430c3649e86755f9576b54eca72435`.
 - Source and raw verification logs: [release v1.0.0](https://github.com/cronrpc/jsp-000623-lean/releases/tag/v1.0.0).
-- Source archive: `jsp-000623-source.tar.gz`, 76890 bytes,
-  SHA-256 `c6b0db0f8e23904cd9f415bb96c4509b78685f9bcfe1b040ef130697fd5ea544`.
+- Source archive: `jsp-000623-source.tar.gz`, 79294 bytes,
+  SHA-256 `6d491d0b00cd1bf4532eef9e108dc3cf2ad7be2040cbd4c7ef931e8e37dc3e7d`.
 - [Machine-readable verification summary](verification-summary.json).
 
 ```sh
