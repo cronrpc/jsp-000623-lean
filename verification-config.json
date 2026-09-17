@@ -1,0 +1,29 @@
+{
+  "project": "JSP-000623",
+  "lean_toolchain": "leanprover/lean4:v4.34.0",
+  "mathlib_commit": "5ed2965256430c3649e86755f9576b54eca72435",
+  "scope_review_complete": true,
+  "scope_review_file": "SCOPE-REVIEW.md",
+  "final_theorems": [
+    "Erdos759.SimpleGraph.EmbedsOrientable.comap",
+    "Erdos759.SimpleGraph.embedsOrientable_iff_hereditary",
+    "Erdos759.SimpleGraph.ordinarySurfaceCochromaticValues_eq",
+    "Erdos759.SimpleGraph.ordinaryZSurface_isGreatest",
+    "Erdos759.SimpleGraph.ordinary_surface_cochromatic_eventual_bounds",
+    "Erdos759.SimpleGraph.ordinary_surface_cochromatic_theta"
+  ],
+  "statement_assertions": [
+    "noncomputable section",
+    "open Filter _root_.SimpleGraph Erdos759.SimpleGraph Erdos760.SimpleGraph",
+    "attribute [local instance] Classical.propDecidable Classical.decEq",
+    "example {V W : Type*} [Fintype V] [Fintype W] {G : SimpleGraph V} {g : ℕ} (f : W ↪ V) : EmbedsOrientable G g → EmbedsOrientable (G.comap f) g := fun h => h.comap f",
+    "example (g : ℕ) : ordinarySurfaceCochromaticValues g = {k | ∃ (n : ℕ) (G : SimpleGraph (Fin n)), EmbedsOrientable G g ∧ cochromaticNat G = k} := rfl",
+    "example (g : ℕ) : IsGreatest (ordinarySurfaceCochromaticValues g) (ordinaryZSurface g) := ordinaryZSurface_isGreatest g",
+    "example : ∀ᶠ g : ℕ in atTop, (1 / 256 : ℝ) * (Real.sqrt (g : ℝ) / Real.log (g : ℝ)) ≤ (ordinaryZSurface g : ℝ) ∧ (ordinaryZSurface g : ℝ) ≤ 236628 * (Real.sqrt (g : ℝ) / Real.log (g : ℝ)) := ordinary_surface_cochromatic_eventual_bounds",
+    "example : (fun g : ℕ => (ordinaryZSurface g : ℝ)) =Θ[atTop] (fun g : ℕ => Real.sqrt (g : ℝ) / Real.log (g : ℝ)) := ordinary_surface_cochromatic_theta",
+    "end"
+  ],
+  "allowed_axioms": ["propext", "Classical.choice", "Quot.sound"],
+  "excluded_directories": [".git", ".lake", "research", "verification", "scripts"],
+  "excluded_lean_files": ["lakefile.lean"]
+}

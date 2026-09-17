@@ -1,0 +1,6 @@
+.lake/
+research/
+verification/*.tmp
+verification/full/
+verification/
+__pycache__/
