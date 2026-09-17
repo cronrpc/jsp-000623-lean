@@ -32,3 +32,24 @@ of taking it as a premise.
 This development adopts the standard combinatorial definition of orientable
 graph genus. It does not define a separate manifold-embedding predicate. The
 definition and the full problem scope are reviewed in `SCOPE-REVIEW.md`.
+
+## Contributor to the new development
+
+GitHub account: cronrpc
+
+The new formalization work was initiated, directed and integrated by cronrpc,
+who submits that contribution. It comprises the deletion and restriction
+arguments for ordinary rotation-system embeddings, their hereditary consequence,
+integration with the reused estimates, and the final complete ordinary-surface
+statement and verification package. Automated proof-development assistance was
+used under the applicant's direction.
+
+The reused modules and adapted arguments remain credited to the upstream
+contributors identified above and in their source headers. The contribution
+claim concerns the new development and integration, not sole authorship of those
+upstream modules. The original mathematical authors retain their stated credit.
+
+Recipient placeholder: `RECIPIENT-JSP-000623-A`.
+The existing [claim](https://github.com/TheJustinSunPrize/awards/issues/641)
+and [catalog correction](https://github.com/TheJustinSunPrize/awards/pull/642)
+identify this contribution. Recipient confirmation remains pending.
